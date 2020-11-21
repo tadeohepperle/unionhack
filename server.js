@@ -48,6 +48,6 @@ app.post("/test", (req, res) => {
 });
 
 const port = 3000;
-app.listen(port, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
