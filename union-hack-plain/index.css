@@ -1,0 +1,67 @@
+.overlay {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(256, 40, 90, 0.6);
+}
+
+.headerimage {
+  opacity: 50%;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header {
+  border-bottom: 8px solid #dc3545;
+  border-top: 8px solid #dc3545;
+  padding: 8em;
+  padding-top: 8em;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    padding: 2em;
+    padding-top: 2em;
+  }
+  .tagline {
+    font-size: 40px;
+  }
+}
+
+.headercontent {
+  z-index: 300;
+  color: white;
+  font-weight: bolder;
+}
+
+.tagline {
+  font-size: 50px;
+  font-weight: 900;
+  transform: rotate(-5deg);
+  text-shadow: 6px 6px 0 #000, -2px -2px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 3px 3px 0 #000;
+}
+
+.fragekarte {
+  border-radius: 1em;
+  margin: 3em 1em 3em;
+  color: #666;
+  padding: 2em;
+  border: 0px solid rgb(184, 184, 184);
+}
+
+#unionlogo {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.shadow {
+  -webkit-box-shadow: 7px 7px 14px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 7px 7px 14px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 7px 7px 14px 0px rgba(0, 0, 0, 0.45);
+}
