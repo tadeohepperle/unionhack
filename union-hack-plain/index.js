@@ -1,4 +1,4 @@
-const TESTMODUS = true;
+const TESTMODUS = false;
 const PHASEDURATION = 100;
 let state = {
   phaseNumber: 0,
