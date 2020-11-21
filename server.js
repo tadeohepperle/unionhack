@@ -43,6 +43,10 @@ app.post("/contact", (req, res) => {
   } else res.status(400).send("Fehler du Hurensohn.");
 });
 
+app.post("/test", (req, res) => {
+  res.json({ test: true });
+});
+
 const port = 3000;
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
